@@ -1,0 +1,7 @@
+
+train: /home/gles/Praktikum/MachineTraining/data/train
+val: /home/gles/Praktikum/MachineTraining/data/val
+test: /home/gles/Praktikum/MachineTraining/data/test
+
+names: 
+  0: Flower
