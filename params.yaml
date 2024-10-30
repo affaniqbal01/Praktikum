@@ -1,0 +1,11 @@
+name: "Object Detection"
+experiment_name: "Apple Blossoms Detection"
+model_type: "yolov8n.pt"  # You can specify the model type you want to use (e.g., 'yolov8n.pt', 'yolov8m.pt', etc.)
+imgsz: 640  # Image size (e.g., 640)
+batch: 32  # Batch size (e.g., 16)
+optimizer: "SGD"  # Optimizer type (e.g., 'SGD', 'Adam')
+lr0: 0.01  # Initial learning rate (e.g., 0.01)
+seed: 42  # Random seed for reproducibility
+pretrained: True  # Whether to use a pretrained model or not (True/False)
+patience: 300 
+hsv_s: 0.7
