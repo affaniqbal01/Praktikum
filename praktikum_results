@@ -24,3 +24,25 @@
 \caption{ML Flow Results with Recall, Precision, mAP50, and mAP50-95}
 \label{table:mlflow_results}
 \end{table}
+
+
+
+
+To determine the best results, let’s look at the highest values for each performance metric:
+
+RecallB: Higher recall indicates better sensitivity. The highest recall is:
+
+train10 with 0.572
+PrecisionB: Higher precision means fewer false positives. The highest precision is:
+
+train5 with 0.594
+mAP50B: Mean Average Precision at 50% IoU (intersection over union) is often the main measure of accuracy. The highest mAP50B is:
+
+train6 with 0.554
+mAP50-95B: Mean Average Precision across multiple IoUs (0.5 to 0.95) is a stricter measure, with the highest mAP50-95B being:
+
+train6 with 0.313
+Summary of Best Performers
+Overall Best: train6 has the best values for mAP50B and mAP50-95B, making it likely the best model in terms of both accuracy metrics.
+Other Strong Contenders: train10 (best RecallB) and train5 (best PrecisionB) also show strong performance, though with slightly lower mAP metrics than train6.
+In general, train6 stands out as the best overall based on the balance of all metrics, especially if mAP metrics are prioritized.
