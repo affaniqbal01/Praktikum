@@ -1,0 +1,26 @@
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Batch} & \textbf{Epochs} & \textbf{Learning Rate (lr0)} & \textbf{Name} & \textbf{Patience} & \textbf{Save Directory} & \textbf{RecallB} & \textbf{PrecisionB} & \textbf{mAP50B} & \textbf{mAP50-95B} \\ \hline
+16    & 197    & 0.0003293829     & train17 & 300      & my\_proj/train17        & 0.556   & 0.576      & 0.544  & 0.303     \\ \hline
+21    & 185    & 0.0004027070     & train16 & 300      & my\_proj/train16        & 0.558   & 0.567      & 0.538  & 0.298     \\ \hline
+29    & 179    & 0.0007574043     & train15 & 300      & my\_proj/train15        & 0.550   & 0.561      & 0.526  & 0.296     \\ \hline
+29    & 286    & 0.0031149334     & train14 & 300      & my\_proj/train14        & 0.524   & 0.563      & 0.532  & 0.294     \\ \hline
+17    & 165    & 0.0000780693     & train13 & 300      & my\_proj/train13        & 0.558   & 0.573      & 0.548  & 0.303     \\ \hline
+16    & 204    & 0.0002141983     & train12 & 100      & my\_proj/train12        & 0.565   & 0.572      & 0.542  & 0.303     \\ \hline
+16    & 156    & 0.0000226340     & train11 & 100      & my\_proj/train11        & 0.550   & 0.589      & 0.547  & 0.304     \\ \hline
+32    & 277    & 0.0095815264     & train10 & 100      & my\_proj/train10        & 0.572   & 0.552      & 0.529  & 0.294     \\ \hline
+32    & 157    & 0.0000101688     & train9  & 100      & my\_proj/train9         & 0.545   & 0.559      & 0.539  & 0.300     \\ \hline
+16    & 238    & 0.0006834972     & train8  & 100      & my\_proj/train8         & 0.555   & 0.554      & 0.534  & 0.294     \\ \hline
+16    & 190    & 0.0000165508     & train7  & 100      & my\_proj/train7         & 0.536   & 0.571      & 0.529  & 0.297     \\ \hline
+16    & 160    & 0.0006433495     & train6  & 100      & my\_proj/train6         & 0.566   & 0.575      & 0.554  & 0.313     \\ \hline
+16    & 169    & 0.0007650284     & train5  & 100      & my\_proj/train5         & 0.540   & 0.594      & 0.539  & 0.300     \\ \hline
+16    & 280    & 0.0039913144     & train4  & 100      & my\_proj/train4         & 0.555   & 0.564      & 0.539  & 0.300     \\ \hline
+16    & 224    & 0.0000183021     & train3  & 100      & my\_proj/train3         & 0.543   & 0.590      & 0.541  & 0.297     \\ \hline
+18    & 287    & 0.0011647204     & train2  & 100      & my\_proj/train2         & 0.554   & 0.547      & 0.539  & 0.297     \\ \hline
+18    & 253    & 0.0054077966     & train   & 100      & my\_proj/train          & 0.553   & 0.553      & 0.537  & 0.298     \\ \hline
+\end{tabular}
+\caption{ML Flow Results with Recall, Precision, mAP50, and mAP50-95}
+\label{table:mlflow_results}
+\end{table}
